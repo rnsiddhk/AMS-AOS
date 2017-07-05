@@ -1,0 +1,571 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:2:1-295:12
+	package
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:3:5-26
+		INJECTED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:4:5-29
+		INJECTED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Won\.android\build-cache\ed3f062751af50c6b0f2b964562bf212b6fc5812\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Won\.android\build-cache\2ebe17ef1d9488d2fd96509b3eeffa444b9b88e3\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Won\.android\build-cache\ccb47bf55b181df40d6aab8357a066b0c58a2a84\output\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Won\.android\build-cache\28751a1b95ad781bdd2faf1f55325656cfd50c26\output\AndroidManifest.xml:5:5-43
+MERGED from [:nmaps:] C:\Users\Won\.android\build-cache\6f092d14c715f536fe5d3ecf946d645392f5a3b6\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\Won\.android\build-cache\aedfedfc75af025991a65f2a658c8a9424e7c190\output\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-location:9.2.0] C:\Users\Won\.android\build-cache\78be03a95d4d72a4edb66bbf361781a8f8062732\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:9.2.0] C:\Users\Won\.android\build-cache\cfa947bb76cef740d1d72e00f1547a6fa644bcc5\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.2.0] C:\Users\Won\.android\build-cache\8341294d8b44478b7dee7e2668f605749ed88c2b\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\Won\.android\build-cache\f84683d2ea6659a6f476d46b99cb58058e0d4255\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-messaging:9.2.0] C:\Users\Won\.android\build-cache\ab788964d7c7541464bed6cac312241bfdc88bc0\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-core:9.2.0] C:\Users\Won\.android\build-cache\db4d5ec4ef429419a10baa69c3f5340067c0455a\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Won\.android\build-cache\bcbb8904b6d5cc348bb0aa11e5ada7b473c539eb\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] C:\Users\Won\.android\build-cache\1e43a74907deb3b915b788784112f0823db263e9\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.2.0] C:\Users\Won\.android\build-cache\6cf962724b6d8865c7d46d23dc9d75c721cb0a0c\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] C:\Users\Won\.android\build-cache\d827c5e40a546a7c37d2ae962e1b731d83b327d8\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\Won\.android\build-cache\128cbf0c985377d7c35c71f0e4efbfed6bf138f2\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Won\.android\build-cache\e2b8052eb2d605ac20e52725329e2c1c965cf562\output\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Won\.android\build-cache\2ebe17ef1d9488d2fd96509b3eeffa444b9b88e3\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:12:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:13:22-78
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:15:5-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:15:19-57
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:17:5-67
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\Won\.android\build-cache\aedfedfc75af025991a65f2a658c8a9424e7c190\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:9.2.0] C:\Users\Won\.android\build-cache\cfa947bb76cef740d1d72e00f1547a6fa644bcc5\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-iid:9.2.0] C:\Users\Won\.android\build-cache\8341294d8b44478b7dee7e2668f605749ed88c2b\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Won\.android\build-cache\bcbb8904b6d5cc348bb0aa11e5ada7b473c539eb\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] C:\Users\Won\.android\build-cache\1e43a74907deb3b915b788784112f0823db263e9\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:17:22-64
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:19:5-69
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:19:22-66
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:23:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\Won\.android\build-cache\aedfedfc75af025991a65f2a658c8a9424e7c190\output\AndroidManifest.xml:20:5-78
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Won\.android\build-cache\bcbb8904b6d5cc348bb0aa11e5ada7b473c539eb\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] C:\Users\Won\.android\build-cache\1e43a74907deb3b915b788784112f0823db263e9\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:26:22-76
+permission#com.cashnet.locationapi.maps.permission.MAPS_RECEIVE
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:29:5-31:47
+	android:protectionLevel
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:31:9-44
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:30:9-76
+uses-permission#com.cashnet.locationapi.maps.permission.MAPS_RECEIVE
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:34:5-92
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:34:22-89
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:35:5-75
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:35:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:36:5-80
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:36:22-77
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:39:5-73
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:39:22-70
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:42:5-68
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Won\.android\build-cache\bcbb8904b6d5cc348bb0aa11e5ada7b473c539eb\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] C:\Users\Won\.android\build-cache\1e43a74907deb3b915b788784112f0823db263e9\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:42:22-65
+application
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:44:5-293:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Won\.android\build-cache\2ebe17ef1d9488d2fd96509b3eeffa444b9b88e3\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Won\.android\build-cache\ccb47bf55b181df40d6aab8357a066b0c58a2a84\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Won\.android\build-cache\28751a1b95ad781bdd2faf1f55325656cfd50c26\output\AndroidManifest.xml:7:5-20
+MERGED from [:nmaps:] C:\Users\Won\.android\build-cache\6f092d14c715f536fe5d3ecf946d645392f5a3b6\output\AndroidManifest.xml:11:5-14:19
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\Won\.android\build-cache\aedfedfc75af025991a65f2a658c8a9424e7c190\output\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-location:9.2.0] C:\Users\Won\.android\build-cache\78be03a95d4d72a4edb66bbf361781a8f8062732\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gcm:9.2.0] C:\Users\Won\.android\build-cache\cfa947bb76cef740d1d72e00f1547a6fa644bcc5\output\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-iid:9.2.0] C:\Users\Won\.android\build-cache\8341294d8b44478b7dee7e2668f605749ed88c2b\output\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\Won\.android\build-cache\f84683d2ea6659a6f476d46b99cb58058e0d4255\output\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-messaging:9.2.0] C:\Users\Won\.android\build-cache\ab788964d7c7541464bed6cac312241bfdc88bc0\output\AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.firebase:firebase-core:9.2.0] C:\Users\Won\.android\build-cache\db4d5ec4ef429419a10baa69c3f5340067c0455a\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Won\.android\build-cache\bcbb8904b6d5cc348bb0aa11e5ada7b473c539eb\output\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] C:\Users\Won\.android\build-cache\1e43a74907deb3b915b788784112f0823db263e9\output\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-common:9.2.0] C:\Users\Won\.android\build-cache\6cf962724b6d8865c7d46d23dc9d75c721cb0a0c\output\AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] C:\Users\Won\.android\build-cache\d827c5e40a546a7c37d2ae962e1b731d83b327d8\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\Won\.android\build-cache\128cbf0c985377d7c35c71f0e4efbfed6bf138f2\output\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Won\.android\build-cache\e2b8052eb2d605ac20e52725329e2c1c965cf562\output\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:47:9-41
+	android:allowBackup
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:45:9-35
+	android:icon
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:46:9-41
+	android:theme
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:48:9-68
+activity#com.cashnet.main.Intro
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:49:9-58:20
+	android:screenOrientation
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:52:13-49
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:51:13-45
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:50:13-39
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:53:13-57:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:54:17-69
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:54:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:56:17-77
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:56:27-74
+activity#com.cashnet.main.Main
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:61:9-65:63
+	android:screenOrientation
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:64:13-49
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:63:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:65:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:62:13-38
+activity#com.cashnet.menu.MenuActivity
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:69:9-73:63
+	android:screenOrientation
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:72:13-49
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:71:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:73:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:70:13-46
+activity#com.cashnet.menu.UrgentIssueActivity
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:76:9-80:63
+	android:screenOrientation
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:79:13-49
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:78:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:80:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:77:13-53
+activity#com.cashnet.menu.IssueDetailActivity
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:83:9-87:63
+	android:screenOrientation
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:86:13-49
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:85:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:87:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:84:13-53
+activity#com.cashnet.menu.IssueHistoryActivity
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:90:9-94:63
+	android:screenOrientation
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:93:13-49
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:92:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:94:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:91:13-54
+activity#com.cashnet.menu.CurrencyInfoActivity
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:97:9-101:63
+	android:screenOrientation
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:100:13-49
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:99:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:101:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:98:13-54
+activity#com.cashnet.menu.StatusMgrActivity
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:104:9-108:63
+	android:screenOrientation
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:107:13-49
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:106:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:108:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:105:13-51
+activity#com.cashnet.menu.StatusMgrDetailActivity
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:111:9-115:63
+	android:screenOrientation
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:114:13-49
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:113:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:115:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:112:13-57
+activity#com.cashnet.menu.MachineInfoActivity
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:118:9-122:63
+	android:screenOrientation
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:121:13-49
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:120:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:122:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:119:13-53
+activity#com.cashnet.menu.TotalMgrActivity
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:125:9-129:63
+	android:screenOrientation
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:128:13-49
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:127:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:129:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:126:13-50
+activity#com.cashnet.menu.TotalDMActivity
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:132:9-136:63
+	android:screenOrientation
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:135:13-49
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:134:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:136:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:133:13-49
+activity#com.cashnet.menu.TotalMachineListActivity
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:139:9-143:63
+	android:screenOrientation
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:142:13-49
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:141:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:143:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:140:13-58
+activity#com.cashnet.menu.TotalMachineActivity
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:146:9-150:63
+	android:screenOrientation
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:149:13-49
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:148:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:150:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:147:13-54
+activity#com.cashnet.menu.TotalIssueStatusActivity
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:153:9-157:63
+	android:screenOrientation
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:156:13-49
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:155:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:157:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:154:13-58
+activity#com.cashnet.menu.CollectMoneyListActivity
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:160:9-164:63
+	android:screenOrientation
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:163:13-49
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:162:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:164:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:161:13-58
+activity#com.cashnet.menu.CollectMoneyDetailActivity
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:167:9-171:63
+	android:screenOrientation
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:170:13-49
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:169:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:171:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:168:13-60
+activity#com.cashnet.menu.NoticeListActivity
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:174:9-178:63
+	android:screenOrientation
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:177:13-49
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:176:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:178:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:175:13-52
+activity#com.cashnet.menu.NoticeDetailActivity
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:181:9-185:63
+	android:screenOrientation
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:184:13-49
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:183:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:185:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:182:13-54
+activity#com.cashnet.menu.SettingActivity
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:188:9-192:63
+	android:screenOrientation
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:191:13-49
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:190:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:192:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:189:13-49
+activity#com.cashnet.menu.LocationSearchListActivity
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:195:9-199:63
+	android:screenOrientation
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:198:13-49
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:197:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:199:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:196:13-60
+activity#com.cashnet.menu.CustomGalleryActivity
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:202:9-206:63
+	android:screenOrientation
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:205:13-49
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:204:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:206:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:203:13-55
+activity#com.daum.android.map.DaumMapViewer
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:213:9-216:63
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:215:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:216:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:214:13-62
+activity#com.nhn.android.map.NMapViewer
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:219:9-222:63
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:221:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:222:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:220:13-58
+activity#com.google.android.map.GoogleMapViewer
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:226:9-230:63
+	android:screenOrientation
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:229:13-49
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:228:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:230:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:227:13-66
+activity#com.cashnet.view.CameraView
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:236:9-239:63
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:238:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:239:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:237:13-44
+activity#com.cashnet.view.AlbumView
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:242:9-245:63
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:244:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:245:13-60
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:243:13-43
+activity#com.cashnet.dialog.ConfirmPassActivity
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:255:9-260:63
+	android:screenOrientation
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:258:13-49
+	android:label
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:257:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:260:13-60
+	android:theme
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:259:13-67
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:256:13-55
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:270:9-272:71
+	android:value
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:272:13-68
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:271:13-58
+service#com.firebase.push.MyFirebaseMessagingService
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:275:9-279:19
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:275:18-77
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:276:13-278:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:277:17-78
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:277:25-75
+service#com.firebase.push.MyFirebaseInstanceIDService
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:282:9-286:19
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:282:18-78
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:283:13-285:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:284:17-80
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:284:25-77
+service#com.cashnet.common.GpsInfo
+ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:288:9-291:47
+	android:enabled
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:290:13-35
+	android:exported
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:291:13-36
+	android:name
+		ADDED from C:\Users\Won\Downloads\CashNet_NEW\app\src\main\AndroidManifest.xml:289:13-43
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\Won\.android\build-cache\aedfedfc75af025991a65f2a658c8a9424e7c190\output\AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\Won\.android\build-cache\aedfedfc75af025991a65f2a658c8a9424e7c190\output\AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\Won\.android\build-cache\aedfedfc75af025991a65f2a658c8a9424e7c190\output\AndroidManifest.xml:24:8-31
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:9.2.0] C:\Users\Won\.android\build-cache\cfa947bb76cef740d1d72e00f1547a6fa644bcc5\output\AndroidManifest.xml:21:5-82
+MERGED from [com.google.android.gms:play-services-iid:9.2.0] C:\Users\Won\.android\build-cache\8341294d8b44478b7dee7e2668f605749ed88c2b\output\AndroidManifest.xml:21:5-82
+MERGED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:9.2.0] C:\Users\Won\.android\build-cache\cfa947bb76cef740d1d72e00f1547a6fa644bcc5\output\AndroidManifest.xml:21:22-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\Won\.android\build-cache\f84683d2ea6659a6f476d46b99cb58058e0d4255\output\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\Won\.android\build-cache\f84683d2ea6659a6f476d46b99cb58058e0d4255\output\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\Won\.android\build-cache\f84683d2ea6659a6f476d46b99cb58058e0d4255\output\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\Won\.android\build-cache\f84683d2ea6659a6f476d46b99cb58058e0d4255\output\AndroidManifest.xml:20:19-85
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:9.2.0] C:\Users\Won\.android\build-cache\ab788964d7c7541464bed6cac312241bfdc88bc0\output\AndroidManifest.xml:24:9-30:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:9.2.0] C:\Users\Won\.android\build-cache\ab788964d7c7541464bed6cac312241bfdc88bc0\output\AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.2.0] C:\Users\Won\.android\build-cache\ab788964d7c7541464bed6cac312241bfdc88bc0\output\AndroidManifest.xml:25:13-82
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Won\.android\build-cache\bcbb8904b6d5cc348bb0aa11e5ada7b473c539eb\output\AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] C:\Users\Won\.android\build-cache\1e43a74907deb3b915b788784112f0823db263e9\output\AndroidManifest.xml:28:7-34:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Won\.android\build-cache\bcbb8904b6d5cc348bb0aa11e5ada7b473c539eb\output\AndroidManifest.xml:30:11-33
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Won\.android\build-cache\bcbb8904b6d5cc348bb0aa11e5ada7b473c539eb\output\AndroidManifest.xml:29:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Won\.android\build-cache\bcbb8904b6d5cc348bb0aa11e5ada7b473c539eb\output\AndroidManifest.xml:31:9-33:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Won\.android\build-cache\bcbb8904b6d5cc348bb0aa11e5ada7b473c539eb\output\AndroidManifest.xml:32:11-77
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Won\.android\build-cache\bcbb8904b6d5cc348bb0aa11e5ada7b473c539eb\output\AndroidManifest.xml:32:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Won\.android\build-cache\bcbb8904b6d5cc348bb0aa11e5ada7b473c539eb\output\AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] C:\Users\Won\.android\build-cache\1e43a74907deb3b915b788784112f0823db263e9\output\AndroidManifest.xml:36:7-39:37
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Won\.android\build-cache\bcbb8904b6d5cc348bb0aa11e5ada7b473c539eb\output\AndroidManifest.xml:38:11-33
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Won\.android\build-cache\bcbb8904b6d5cc348bb0aa11e5ada7b473c539eb\output\AndroidManifest.xml:39:11-35
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Won\.android\build-cache\bcbb8904b6d5cc348bb0aa11e5ada7b473c539eb\output\AndroidManifest.xml:37:11-82
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:28:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:33:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:36:13-40:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:37:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:37:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:38:17-86
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:38:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:39:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:46:13-86
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:51:9-57:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Won\.android\build-cache\80c5d32ef8ebaa1b06f9e763b331e406c441c7dc\output\AndroidManifest.xml:52:13-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.2.0] C:\Users\Won\.android\build-cache\6cf962724b6d8865c7d46d23dc9d75c721cb0a0c\output\AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.2.0] C:\Users\Won\.android\build-cache\6cf962724b6d8865c7d46d23dc9d75c721cb0a0c\output\AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.2.0] C:\Users\Won\.android\build-cache\6cf962724b6d8865c7d46d23dc9d75c721cb0a0c\output\AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.2.0] C:\Users\Won\.android\build-cache\6cf962724b6d8865c7d46d23dc9d75c721cb0a0c\output\AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.2.0] C:\Users\Won\.android\build-cache\6cf962724b6d8865c7d46d23dc9d75c721cb0a0c\output\AndroidManifest.xml:9:13-58
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\Won\.android\build-cache\128cbf0c985377d7c35c71f0e4efbfed6bf138f2\output\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\Won\.android\build-cache\128cbf0c985377d7c35c71f0e4efbfed6bf138f2\output\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\Won\.android\build-cache\128cbf0c985377d7c35c71f0e4efbfed6bf138f2\output\AndroidManifest.xml:22:13-58

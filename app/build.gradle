@@ -1,0 +1,75 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    defaultConfig {
+        applicationId "com.cashnet"
+        minSdkVersion 19
+        targetSdkVersion 23
+        multiDexEnabled true
+    }
+
+    // 릴리즈시 사용
+    signingConfigs{
+
+        release{
+            storeFile file("C:/Users/Won/Downloads/CashNet_NEW/keystore/keystore.jks")
+            storePassword "bgf1234"
+            keyAlias "bgf"
+            keyPassword "bgf1234"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.release
+
+            // app 이름 자동으로 붙일때
+//            applicationVariants.all { variant ->
+//                variant.outputs.each {
+//                    output->
+//                        def file = output.outputFile
+//                        output.outputFile = new File(file.parent,
+//                                file.name.replace("app", "appname." + defaultConfig.versionName))
+//                }
+        }
+
+        debug {
+            minifyEnabled false
+            proguardFile 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile(name: 'nmaps', ext: 'aar')
+    compile files('libs/libDaumMapAndroid.jar')
+    compile files('libs/universal-image-loader-1.9.0.jar')
+
+    //compile 'com.google.android.gms:play-services:9.4.0'
+    compile 'com.google.android.gms:play-services-maps:9.2.0'
+    compile 'com.google.android.gms:play-services-location:9.2.0'
+    compile 'com.google.android.gms:play-services-gcm:9.2.0'
+    compile 'com.google.firebase:firebase-messaging:9.2.0'
+}
+
+apply plugin: 'com.google.gms.google-services'
+
+repositories{
+
+    flatDir{
+        dirs 'libs'
+    }
+}

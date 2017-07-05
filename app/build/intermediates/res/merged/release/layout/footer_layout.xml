@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 하단 시작 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/btn_category_bg2"
+        android:orientation="horizontal" >
+
+        <!-- 로그아웃 버튼 시작 -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_logout"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:background="@drawable/icon_logout" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="로그아웃"
+                android:textColor="@color/WhiteSmoke" />
+        </LinearLayout>
+
+        <!-- 로그아웃 버튼 끝 -->
+
+
+        <!-- 콜센터 버튼 시작 -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_call"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:background="@drawable/icon_callcenter" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="콜센터"
+                android:textColor="@color/WhiteSmoke" />
+        </LinearLayout>
+
+        <!-- 콜센터 버튼 끝 -->
+
+
+        <!-- 설정 버튼 시작 -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_setting"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:background="@drawable/icon_setting" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="설정"
+                android:textColor="@color/WhiteSmoke" />
+        </LinearLayout>
+
+        <!-- 설정 버튼 끝 -->
+        <!-- Top 버튼 시작 -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_top"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:background="@drawable/icon_top" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="TOP"
+                android:textColor="@color/WhiteSmoke" />
+        </LinearLayout>
+
+        <!-- Top 버튼 끝 -->
+    </LinearLayout>
+    <!-- 하단 끝 -->
+
+</LinearLayout>

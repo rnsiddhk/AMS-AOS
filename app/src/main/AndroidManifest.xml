@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cashnet"
+    android:versionCode="13"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="23" />
+
+    <!-- 카메라 스토리지(저장) 사용여부를 등록합니다 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <!-- 인터넷 사용 권한 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 전화걸기 사용 권한 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!-- 위치정보 이용 권한 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- 네트워크 상태 확인 권한 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- 구글맵 사용 권한 -->
+    <permission
+        android:name="com.cashnet.locationapi.maps.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <!-- 구글맵 사용 권한 -->
+    <uses-permission android:name="com.cashnet.locationapi.maps.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- 셋팅기능 사용 권한 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <!-- 화면깨우기 권한 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_76"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        <activity
+            android:name=".main.Intro"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 로그인 액티비티 -->
+        <activity
+            android:name=".main.Main"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 메뉴 관련 액티비티 시작 -->
+        <!-- 메인 메뉴 액티비티 -->
+        <activity
+            android:name=".menu.MenuActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 긴급출동, 장애관리 액티비티 -->
+        <activity
+            android:name=".menu.UrgentIssueActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 장애관리 상세 액티비티 -->
+        <activity
+            android:name=".menu.IssueDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 장애이력 액티비티 -->
+        <activity
+            android:name=".menu.IssueHistoryActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 시재정보 액티비티 -->
+        <activity
+            android:name=".menu.CurrencyInfoActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 상태관리 액티비티 -->
+        <activity
+            android:name=".menu.StatusMgrActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 상태관리 상세 액티비티 -->
+        <activity
+            android:name=".menu.StatusMgrDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 기기정보 액티비티 -->
+        <activity
+            android:name=".menu.MachineInfoActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 집계관리 액티비티 -->
+        <activity
+            android:name=".menu.TotalMgrActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 일/월별 종합 집계 액티비티 -->
+        <activity
+            android:name=".menu.TotalDMActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 기기선택 리스트 액티비티 -->
+        <activity
+            android:name=".menu.TotalMachineListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 기기별 종합 집계 액티비티 -->
+        <activity
+            android:name=".menu.TotalMachineActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 장애 유형별 액티비티 -->
+        <activity
+            android:name=".menu.TotalIssueStatusActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 파출수납 액티비티 -->
+        <activity
+            android:name=".menu.CollectMoneyListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 파출수납 상세(등록) 액티비티 -->
+        <activity
+            android:name=".menu.CollectMoneyDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 공지사항 액티비티 -->
+        <activity
+            android:name=".menu.NoticeListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 공지사항 상세 액티비티 -->
+        <activity
+            android:name=".menu.NoticeDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 셋팅 액티비티 -->
+        <activity
+            android:name=".menu.SettingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 지역 조회 액티비티 -->
+        <activity
+            android:name=".menu.LocationSearchListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 커스텀 갤러리 액티비티 -->
+        <activity
+            android:name=".menu.CustomGalleryActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 메뉴 관련 액티비티 끝 -->
+
+
+        <!-- 다음 맵 시작 -->
+
+        <activity
+            android:name="com.daum.android.map.DaumMapViewer"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <!-- 네이버 맵 시작 -->
+
+        <activity
+            android:name="com.nhn.android.map.NMapViewer"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <!-- 네이버 맵 끝 -->
+        <!-- 구글 맵 시작 -->
+
+        <activity
+            android:name="com.google.android.map.GoogleMapViewer"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <!-- 구글 맵 끝 -->
+
+
+        <!-- 뷰 관련 액티비티 시작 -->
+        <!-- 카메라 뷰 액티비티 -->
+        <activity
+            android:name=".view.CameraView"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 앨범 뷰 액티비티 -->
+        <activity
+            android:name=".view.AlbumView"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+
+        <!-- 뷰 관련 액티비티 끝 -->
+
+
+        <!-- 그외 사용하는 액티비티 시작 -->
+        <!-- 다이얼로그 매니저 액티비티 -->
+
+        <!-- 2차 비밀번호 액티비티(팝업) -->
+        <activity
+            android:name=".dialog.ConfirmPassActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.Dialog"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <!-- 그외 사용하는 액티비티 끝 -->
+
+
+        <!-- Google Map API Key -->
+        <!-- debug 용 -->
+        <!--<meta-data-->
+            <!--android:name="com.google.android.geo.API_KEY"-->
+            <!--android:value="AIzaSyBAtvRUt23KNAq7PB2aoOHq8iPntzHtmao" />-->
+        <!-- releage 용 -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDt0fxf3rdCHEdHbQjDQyqK1D9oAlbGeNg" />
+
+        <!-- FCM 메세지 서비스 -->
+        <service android:name="com.firebase.push.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <!-- FCM 인스턴스 서비스 -->
+        <service android:name="com.firebase.push.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- GPS 서비스 -->
+        <service
+            android:name=".common.GpsInfo"
+            android:enabled="true"
+            android:exported="true"></service>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "325960957353",
+    "firebase_url": "https://mobile-429c2.firebaseio.com",
+    "project_id": "mobile-429c2",
+    "storage_bucket": "mobile-429c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325960957353:android:fe8d79c8cb0e8f15",
+        "android_client_info": {
+          "package_name": "com.cashnet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325960957353-mifmmpain130r7lhkc9lfb5o2ebvo2sd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cashnet",
+            "certificate_hash": "c1c30dc2fab33df5ba2e89810afa489fa179b756"
+          }
+        },
+        {
+          "client_id": "325960957353-8er6vdv1j9r7p8sbbhq03s6pi8taufha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp9Sh7eGguI-riadVHoeCEC7-mGhn7AtQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325960957353-8er6vdv1j9r7p8sbbhq03s6pi8taufha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

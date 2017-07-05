@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BGF 핀링크</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="camera">
+        <item>Camera</item>
+        <item>Album</item>
+    </string-array>
+    <string-array name="barcord">
+        <item>바코드 인식</item>
+        <item>바코드 직접 입력</item>
+    </string-array>
+
+    <string name="str_done">완료</string>
+    <!--<string name="str_apk_home">http://210.105.193.144:10004/BGFMams/bgf.apk</string>-->
+    <string name="str_apk_home">http://210.105.193.181:10004/BGFMams/ams.apk</string>
+    <!-- 웹서비스 결과 관련 String 모음-->
+    <string name="str_login_msg">로그인중...</string>
+    <string name="str_fail_app_id_msg">기기 아이디를 가져오지 못했습니다.\n앱을 재실행하여 주십시오!</string>
+    <string name="str_loading_msg">조회중...</string>
+    <string name="str_input_loading_msg">정보등록중...</string>
+    <string name="str_input_msg">정보를 입력하여 주십시오.</string>
+    <string name="str_login_success">로그인 성공</string>
+    <string name="str_login_fail">아이디와 패스워드를 정확히 입력하여 주십시오.</string>
+    <string name="str_network_err">현재 네트워크가 원활하지 않습니다.\n잠시 후 다시 시도하여 주십시오.</string>
+    <string name="str_no_result">조회된 결과가 없습니다.</string>
+    <string name="str_search_fail">조회에 실패하였습니다.\n잠시 후 다시 시도하여 주십시오.</string>
+    <string name="str_input_success">등록에 성공하였습니다.</string>
+    <string name="str_input_fail">등록에 실패하였습니다.</string>
+    <string name="str_failure_image_alert_msg">완료 및 이관 업무시에 \n사진을 업로드 할 수 있습니다!</string>
+    <string name="str_service_msg">서비스 준비중입니다.</string>
+    <string name="str_service_auth_msg">서비스 이용에 제한이 있습니다.</string>
+    <string name="str_no_code_msg">기기의 좌표정보가 없습니다!</string>
+    <string name="str_input_repair_msg">조치내용을 입력하여 주세요!</string>
+    <string name="str_input_issue_msg">특이사항을 입력하여 주세요!</string>
+    <string name="str_input_memo_msg">메모를 입력하여 주세요!</string>
+    <string name="str_success_collect_msg">파출수납 등록이 정상적으로 되었습니다!</string>
+    <string name="str_success_modify_location_msg">기기위치 수정을 성공하였습니다!</string>
+    <string name="str_fail_modify_location_msg">기기위치 수정을 실패하였습니다!</string>
+    <string name="str_matching_pwd_msg">패스워드 확인중...</string>
+    <string name="str_fail_match_pwd_msg">패스워드가 일치하지 않습니다!</string>
+    <string name="str_version_msg">APK 버전체크중...</string>
+    <string name="str_apk_msg">새APK파일을 다운로드 중입니다...</string><!-- 새APK파일을 다운로드 중입니다... -->
+    <string name="str_update_msg">최신버전이 아니면 이용하실 수 없습니다.</string>
+    <string name="str_version_new_msg">최신버전 APK입니다.</string>
+    <string name="str_version_fail_msg">버전체크 실패했습니다\n다시 시도해 주십시오!</string>
+    <string name="str_down_success_msg">다운로드가 성공적으로 완료되었습니다.\n설치하시겠습니까?</string>
+    <string name="title_activity_main">MainActivity</string><!-- 다운로드가 성공적으로 완료되었습니다.\n설치하시겠습니까? -->
+
+</resources>

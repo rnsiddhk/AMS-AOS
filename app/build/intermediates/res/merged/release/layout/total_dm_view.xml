@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- top view 시작 -->
+
+    <include
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/top_view" />
+    <!-- top view 끝 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <!-- 상단 탭 버튼 시작 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_01"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="전일마감"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/White" />
+
+            <Button
+                android:id="@+id/btn_02"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:background="@color/Gray"
+                android:text="전월동일"
+                android:textColor="@color/White"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/White" />
+
+            <Button
+                android:id="@+id/btn_03"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:background="@color/Gray"
+                android:text="전월말일"
+                android:textColor="@color/White"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/White" />
+
+            <Button
+                android:id="@+id/btn_04"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:background="@color/Gray"
+                android:text="전년동일"
+                android:textColor="@color/White"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <!-- 상단 탭 버튼 끝 -->
+
+
+        <!-- 기준일자 시작 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/gradient_transparent_linear2"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/LightGrey"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingLeft="2dp"
+                android:text="기준일자" />
+
+            <TextView
+                android:id="@+id/txt_date"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical|center_horizontal" />
+        </LinearLayout>
+        <!-- 기준일자 끝 -->
+
+
+        <!-- 일평균 건수/ 일 총 수수료 금액 시작 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/gradient_transparent_linear2"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/gradient_gray_linear"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="일 평균 건수" />
+
+                <TextView
+                    android:id="@+id/txt_day_cnt"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical|center_horizontal|right" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/gradient_gray_linear"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="일 총 수수료 금액" />
+
+                <TextView
+                    android:id="@+id/txt_day_mn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical|center_horizontal|right" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 일평균 건수/ 일 총 수수료 금액 끝 -->
+
+
+        <!-- 해당 월 누계 시작 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/gradient_transparent_linear2"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/Gray"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="해당 월 누계"
+                android:textColor="@color/White"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/gradient_gray_linear"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="평균 건수" />
+
+                <TextView
+                    android:id="@+id/txt_avg_cnt"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical|center_horizontal|right" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/gradient_gray_linear"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="총 수수료 금액" />
+
+                <TextView
+                    android:id="@+id/txt_mon_mn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical|center_horizontal|right" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- 해당 월 누계 끝 -->
+
+    </LinearLayout>
+
+    <!-- footer 시작 -->
+
+    <!--<include-->
+        <!--android:id="@+id/footer"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--layout="@layout/footer_layout" />-->
+    <!-- footer 끝 -->
+
+</LinearLayout>

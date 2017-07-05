@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="#00000000" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/popup_bg"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="12.3dip"
+            android:layout_marginRight="12.3dip"
+            android:layout_marginTop="10.6dip"
+            android:gravity="center"
+            android:text="title"
+            android:textColor="#171717"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/msg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="SKTelecom 사용자만  사용 할 수  있습니다."
+            android:textColor="#696969"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="46.5dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp" >
+
+            <Button
+                android:id="@+id/btnConfirm"
+                android:layout_width="89.3dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_btn_select"
+                android:text="test"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

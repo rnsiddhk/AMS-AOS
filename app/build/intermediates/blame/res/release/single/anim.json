@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\pump_bottom.xml",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\anim\\pump_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\shrink_from_topleft_to_bottomright.xml",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\anim\\shrink_from_topleft_to_bottomright.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\shrink_from_bottomright_to_topleft.xml",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\anim\\shrink_from_bottomright_to_topleft.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\grow_from_top.xml",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\anim\\grow_from_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\grow_from_topright_to_bottomleft.xml",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\anim\\grow_from_topright_to_bottomleft.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Won\\.android\\build-cache\\2ebe17ef1d9488d2fd96509b3eeffa444b9b88e3\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Won\\.android\\build-cache\\2ebe17ef1d9488d2fd96509b3eeffa444b9b88e3\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Won\\.android\\build-cache\\2ebe17ef1d9488d2fd96509b3eeffa444b9b88e3\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\grow_from_bottom.xml",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\anim\\grow_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\fade.xml",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\anim\\fade.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\down.xml",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\anim\\down.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\pump_top.xml",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\anim\\pump_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\shrink_from_top.xml",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\anim\\shrink_from_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\shrink_from_bottomleft_to_topright.xml",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\anim\\shrink_from_bottomleft_to_topright.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Won\\.android\\build-cache\\2ebe17ef1d9488d2fd96509b3eeffa444b9b88e3\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\gd_shrink_from_topright_to_bottomleft.xml",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\anim\\gd_shrink_from_topright_to_bottomleft.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\gd_shrink_from_topleft_to_bottomright.xml",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\anim\\gd_shrink_from_topleft_to_bottomright.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\shrink_from_bottom.xml",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\anim\\shrink_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\grow_from_topleft_to_bottomright.xml",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\anim\\grow_from_topleft_to_bottomright.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\grow_from_bottomright_to_topleft.xml",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\anim\\grow_from_bottomright_to_topleft.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Won\\.android\\build-cache\\2ebe17ef1d9488d2fd96509b3eeffa444b9b88e3\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\shrink_from_topright_to_bottomleft.xml",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\anim\\shrink_from_topright_to_bottomleft.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Won\\.android\\build-cache\\2ebe17ef1d9488d2fd96509b3eeffa444b9b88e3\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\disappear.xml",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\anim\\disappear.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Won\\.android\\build-cache\\2ebe17ef1d9488d2fd96509b3eeffa444b9b88e3\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\grow_from_bottomleft_to_topright.xml",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\anim\\grow_from_bottomleft_to_topright.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\hold.xml",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\anim\\hold.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Won\\.android\\build-cache\\2ebe17ef1d9488d2fd96509b3eeffa444b9b88e3\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Won\\.android\\build-cache\\2ebe17ef1d9488d2fd96509b3eeffa444b9b88e3\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Won\\.android\\build-cache\\2ebe17ef1d9488d2fd96509b3eeffa444b9b88e3\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\anim\\up.xml",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\anim\\up.xml"
+    }
+]

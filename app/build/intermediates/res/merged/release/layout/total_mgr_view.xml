@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- top view 시작 -->
+
+    <include
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/top_view" />
+    <!-- top view 끝 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <!-- 검색 조건 라인 시작 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/Gray"
+            android:orientation="horizontal" >
+
+            <Spinner
+                android:id="@+id/sp_con1"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dropdown" />
+
+            <Spinner
+                android:id="@+id/sp_con2"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dropdown" />
+        </LinearLayout>
+        <!-- 검색 조건 라인 끝 -->
+        <!-- 컨텐츠 시작 -->
+
+        <LinearLayout
+            android:id="@+id/btn_day_mon"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/icon_01" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:text="일/월별 종합 집계"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_machine"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/icon_02" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:text="기기별 종합 집계"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_issue_cnt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/icon_03" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:text="장애 유형별 건수"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_call_mgr"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/icon_04" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:text="파출수납 관리"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <!-- 컨텐츠 끝 -->
+    </LinearLayout>
+
+    <!-- footer 시작 -->
+
+    <!--<include-->
+        <!--android:id="@+id/footer"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--layout="@layout/footer_layout" />-->
+    <!-- footer 끝 -->
+
+</LinearLayout>

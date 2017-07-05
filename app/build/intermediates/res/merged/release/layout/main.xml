@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp" >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="13.3dp"
+            android:layout_marginRight="13.3dp"
+            android:background="@drawable/logo" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/title01" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/login_bg"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6.6dp"
+                android:background="@drawable/icon_id" />
+
+            <EditText
+                android:id="@+id/edt_id"
+                android:layout_width="fill_parent"
+                android:layout_height="34dp"
+                android:background="@drawable/inputbox"
+                android:lines="1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceLargeInverse" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6.6dp"
+                android:background="@drawable/icon_pw" />
+
+            <EditText
+                android:id="@+id/edt_pwd"
+                android:layout_width="fill_parent"
+                android:layout_height="34dp"
+                android:background="@drawable/inputbox"
+                android:lines="1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceLargeInverse" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="37dp" >
+
+            <TextView
+                android:id="@+id/savetxt"
+                android:layout_width="60dp"
+                android:layout_height="27dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="ID 저장"
+                android:textColor="#181818"
+                android:textSize="16.5dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true" />
+
+            <CheckBox
+                android:id="@+id/chk_id"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="3.3dp"
+                android:layout_toLeftOf="@+id/savetxt"
+                android:checked="false" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/login_btn_select"
+            android:text="로그인"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bg02" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bg01" />
+    </RelativeLayout>
+
+</LinearLayout>

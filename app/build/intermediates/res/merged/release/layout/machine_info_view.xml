@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- top view 시작 -->
+
+    <include
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/top_view" />
+    <!-- top view 끝 -->
+
+    <com.cashnet.common.LockableScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <!-- 메인 컨텐츠 시작 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- OTP확인, 메모수정 시작 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <!-- 버튼 라인 시작 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_otp"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_btn_comm"
+                        android:text="OTP확인"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btn_edit"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_btn_comm"
+                        android:text="메모수정"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <!-- 버튼 라인 끝 -->
+
+
+                <!-- 메모 라인 시작 -->
+
+                <LinearLayout
+                    android:id="@+id/ll_memo"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/gradient_transparent_linear"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:background="@color/LightGrey"
+                            android:gravity="left"
+                            android:paddingLeft="2dp"
+                            android:paddingTop="5dp"
+                            android:text="기기메모"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/edt_memo"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/gradient_transparent_linear2"
+                            android:gravity="left"
+                            android:hint="기기메모를 입력하세요."
+                            android:inputType="textMultiLine"
+                            android:paddingLeft="2dp"
+                            android:paddingTop="5dp"
+                            android:scrollbars="vertical"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/btn_save"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/selector_btn_comm"
+                            android:text="저장"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/btn_cancel"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/selector_btn_comm"
+                            android:text="취소"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+                <!-- 메모 라인 끝 -->
+            </LinearLayout>
+            <!-- OTP확인, 메모수정 끝 -->
+
+
+            <!-- 기기정보 내용 시작 -->
+
+            <LinearLayout
+                android:id="@+id/ll_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/gradient_transparent_linear"
+                android:orientation="vertical" >
+            </LinearLayout>
+            <!-- 기기정보 내용 끝 -->
+
+
+            <!-- 장애내역 리스트 시작 -->
+
+            <LinearLayout
+                android:id="@+id/ll_issue_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/gradient_transparent_linear"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/gradient_gray_linear"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="장애내역"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal|left"
+                        android:text="(최근 2주)"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 장애내역 리스트 끝 -->
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/ll_footer"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content" >-->
+
+                <!--&lt;!&ndash; footer 시작 &ndash;&gt;-->
+
+                <!--<include-->
+                    <!--android:id="@+id/footer"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--layout="@layout/footer_layout" />-->
+                <!--&lt;!&ndash; footer 끝 &ndash;&gt;-->
+            <!--</LinearLayout>-->
+        </LinearLayout>
+        <!-- 메인 컨텐츠 끝 -->
+
+    </com.cashnet.common.LockableScrollView>
+
+</LinearLayout>

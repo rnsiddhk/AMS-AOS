@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/popup_bg"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:background="@color/Green"
+            android:gravity="center"
+            android:text="title"
+            android:textColor="@color/White"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/msg"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="msg"
+            android:textColor="@color/Blue"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnConfirm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_comm"
+                android:text="확인"
+                android:textColor="@color/Black"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_comm"
+                android:text="취소"
+                android:textColor="@color/Black" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

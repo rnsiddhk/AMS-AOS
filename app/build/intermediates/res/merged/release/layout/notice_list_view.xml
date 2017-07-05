@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- top view 시작 -->
+
+    <include
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/top_view" />
+    <!-- top view 끝 -->
+
+    <!-- 상단 탭 버튼 시작 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1"
+            android:background="@color/White"
+            android:text="긴급"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/White" />
+
+        <Button
+            android:id="@+id/btn_02"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1"
+            android:background="@color/Gray"
+            android:text="전사"
+            android:textColor="@color/White"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/White" />
+
+        <Button
+            android:id="@+id/btn_03"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1"
+            android:background="@color/Gray"
+            android:text="지사"
+            android:textColor="@color/White"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+    <!-- 상단 탭 버튼 끝 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swiperefreshlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <!-- 공지사항 리스트 시작 -->
+
+            <ListView
+                android:id="@+id/lv_notice"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/gradient_transparent_linear2"/>
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <!-- 공지사항 리스트 끝 -->
+
+    </LinearLayout>
+
+
+
+    <!-- footer 시작 -->
+
+    <!--<include-->
+        <!--android:id="@+id/footer"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--layout="@layout/footer_layout" />-->
+    <!-- footer 끝 -->
+
+</LinearLayout>

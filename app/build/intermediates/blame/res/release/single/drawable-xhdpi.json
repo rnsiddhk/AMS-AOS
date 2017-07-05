@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\icon_setting.png",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\drawable-xhdpi\\icon_setting.png"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\map_pin_blue.png",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\drawable-xhdpi\\map_pin_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\icon_logout.png",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\drawable-xhdpi\\icon_logout.png"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\icon_callcenter.png",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\drawable-xhdpi\\icon_callcenter.png"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\icon_top.png",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\drawable-xhdpi\\icon_top.png"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\map_pin_red.png",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\drawable-xhdpi\\map_pin_red.png"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\checkbox_selected.png",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\drawable-xhdpi\\checkbox_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\checkbox_up.png",
+        "source": "C:\\Users\\Won\\Downloads\\CashNet_NEW\\app\\src\\main\\res\\drawable-xhdpi\\checkbox_up.png"
+    }
+]

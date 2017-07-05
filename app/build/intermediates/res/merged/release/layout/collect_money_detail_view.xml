@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- top view 시작 -->
+
+    <include
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/top_view" />
+    <!-- top view 끝 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <!-- 파출수납 시작 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/gradient_transparent_linear2"
+            android:orientation="vertical" >
+
+            <!-- 타이틀 시작 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/gradient_gray_linear"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="파출수납" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2" />
+            </LinearLayout>
+            <!-- 타이틀 끝 -->
+
+
+            <!-- 컨텐츠 시작 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/gradient_transparent_linear2"
+                android:orientation="vertical" >
+
+                <!-- 업체명 시작 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/WhiteSmoke"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="업체명"
+                        android:textColor="@color/Gray"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txt_nm"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical|center_horizontal|left"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/Gray"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <!-- 업체명 끝 -->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/LightGrey" />
+
+                <!-- 기준일 시작 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/WhiteSmoke"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="기준일"
+                        android:textColor="@color/Gray"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txt_date"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical|center_horizontal|left"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/Gray"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <!-- 기준일 끝 -->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/LightGrey" />
+
+                <!-- 수납예정금액 시작 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/WhiteSmoke"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="수납예정금액"
+                        android:textColor="@color/Gray"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txt_est_mn"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical|center_horizontal|left"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/Gray"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <!-- 수납예정금액 끝 -->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/LightGrey" />
+
+                <!-- 입급예정금액 시작 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/WhiteSmoke"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="입금예정금액"
+                        android:textColor="@color/Black"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/edt_est_mn"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:background="@color/Transparent"
+                        android:gravity="center_vertical|center_horizontal|left"
+                        android:inputType="number"
+                        android:maxLength="16"
+                        android:paddingLeft="5dp"
+                        android:text="0"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <!-- 입급예정금액 끝 -->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/LightGrey" />
+
+                <!-- 금액동일 시작 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/WhiteSmoke"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="금액동일"
+                        android:textColor="@color/Black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.4" />
+
+                    <Button
+                        android:id="@+id/btn_same"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/selector_btn_comm"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:paddingLeft="5dp"
+                        android:text="동일" />
+                </LinearLayout>
+                <!-- 금액동일  끝 -->
+            </LinearLayout>
+            <!-- 컨텐츠 끝 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_save"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_btn_comm"
+                    android:text="저장" />
+
+                <!--<Button-->
+                    <!--android:id="@+id/btn_image"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@drawable/selector_btn_comm"-->
+                    <!--android:text="다중" />-->
+
+
+                <!--<Button-->
+                    <!--android:id="@+id/btn_image2"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@drawable/selector_btn_comm"-->
+                    <!--android:text="단일" />-->
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- 파출수납 끝 -->
+
+    </LinearLayout>
+
+    <!-- footer 시작 -->
+
+    <!--<include-->
+        <!--android:id="@+id/footer"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--layout="@layout/footer_layout" />-->
+    <!-- footer 끝 -->
+
+</LinearLayout>

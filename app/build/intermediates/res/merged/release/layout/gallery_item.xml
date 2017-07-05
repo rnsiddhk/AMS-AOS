@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="10dp" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <FrameLayout
+            android:id="@+id/frmQueue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imgQueue"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                android:src="@drawable/no_media" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imgQueueMultiSelected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/on_focus_checkbox"
+            android:contentDescription="@string/app_name"
+            android:gravity="center"
+            android:scaleType="center"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/txt_seq"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/gradient_yellow_dot"
+            android:contentDescription="@string/app_name"
+            android:gravity="center_horizontal|center_vertical"
+            android:scaleType="center"
+            android:textSize="18sp"
+            android:textColor="@color/Black"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+</LinearLayout>

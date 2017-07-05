@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="#00000000" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/popup_bg"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="12.3dip"
+            android:layout_marginRight="13.3dip"
+            android:layout_marginTop="10.6dip"
+            android:gravity="center"
+            android:text="title"
+            android:textColor="#171717"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="fill_parent"
+            android:layout_height="34dp"
+            android:layout_gravity="center"
+            android:background="@drawable/inputbox"
+            android:lines="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:singleLine="true" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="46.5dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp" >
+
+            <Button
+                android:id="@+id/btnConfirm"
+                android:layout_width="89.3dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_btn_select"
+                android:text="확인"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="89.3dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dp"
+                android:background="@drawable/login_btn_select"
+                android:text="취소"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

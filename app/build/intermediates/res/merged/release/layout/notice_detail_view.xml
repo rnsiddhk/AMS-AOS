@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- top view 시작 -->
+
+    <include
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/top_view" />
+    <!-- top view 끝 -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true" >
+
+        <!-- 컨텐츠 내용 시작 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 상단 제목 시작 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:layout_marginLeft="5dp"
+                    android:text="제목"
+                    android:textColor="@color/Green"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txt_notice_title"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical|center_horizontal|left"
+                    android:layout_weight="1"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <!-- 상단 제목 끝 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/LightGrey"
+                android:orientation="vertical" >
+
+                <!-- 조회구분 시작 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:layout_marginLeft="5dp"
+                        android:text="조회구분"
+                        android:textColor="@color/Green"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txt_gb"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical|center_horizontal|left"
+                        android:layout_weight="1"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <!-- 조회구분 끝 -->
+
+                <!-- 작성자 시작 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:layout_marginLeft="5dp"
+                        android:text="작성자"
+                        android:textColor="@color/Green"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txt_writer"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical|center_horizontal|left"
+                        android:layout_weight="1"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <!-- 작성자 끝 -->
+
+                <!-- 작성 시간 시작 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:layout_marginLeft="5dp"
+                        android:text="작성시간"
+                        android:textColor="@color/Green"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txt_time"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical|center_horizontal|left"
+                        android:layout_weight="1"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <!-- 작성시간 끝 -->
+
+                <!-- 내용 시작 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:layout_marginLeft="5dp"
+                        android:text="내용"
+                        android:textColor="@color/Green"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txt_contents"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical|center_horizontal|left"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <!-- 작성시간 끝 -->
+
+            </LinearLayout>
+
+            <!-- 이전, 다음 버튼 시작 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <Button
+                    android:id="@+id/btn_pre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="이전"
+                    android:background="@drawable/selector_btn_comm"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp" />
+
+                <Button
+                    android:id="@+id/btn_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="다음"
+                    android:background="@drawable/selector_btn_comm"
+                    android:layout_alignTop="@+id/btn_pre"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="5dp" />
+
+            </RelativeLayout>
+            <!-- 이전, 다음 버튼 끝 -->
+
+        </LinearLayout>
+        <!-- 컨텐츠 내용 끝 -->
+    </ScrollView>
+    <!-- footer 시작 -->
+
+    <!--<include-->
+        <!--android:id="@+id/footer"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--layout="@layout/footer_layout" />-->
+    <!-- footer 끝 -->
+
+</LinearLayout>

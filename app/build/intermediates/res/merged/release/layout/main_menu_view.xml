@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- top view 시작 -->
+
+    <include
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/top_view" />
+    <!-- top view 끝 -->
+
+
+    <!-- 날짜 표시 시작 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@color/LightGrey"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="3"
+            android:gravity="center_vertical|center_horizontal|left"
+            android:text="Mobile AMS"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_date"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal|right"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <!-- 날짜 표시 끝 -->
+
+
+    <!-- 메뉴 영역 시작 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="2"
+        android:orientation="vertical" >
+
+        <!-- 첫번째 메뉴 라인 시작 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5" />
+
+            <!-- 긴급출동 버튼 시작 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_urgent"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/menu01" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:text="긴급출동" />
+            </LinearLayout>
+
+            <!-- 긴급출동 버튼 끝 -->
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5" />
+
+            <!-- 장애관리 버튼 시작 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_issue"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/menu02" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:text="장애관리" />
+            </LinearLayout>
+
+            <!-- 장애관리 버튼 끝 -->
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5" />
+
+            <!-- 현장관리 버튼 시작 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_site"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/menu03" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:text="현장관리" />
+            </LinearLayout>
+
+            <!-- 현장관리 버튼 끝 -->
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5" />
+        </LinearLayout>
+        <!-- 첫번째 메뉴 라인 끝 -->
+
+
+
+        <!-- 두번째 메뉴 라인 시작 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5" />
+
+            <!-- 상태관리 버튼 시작 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/menu04" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:text="상태관리" />
+            </LinearLayout>
+
+            <!-- 상태관리 버튼 끝 -->
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5" />
+
+            <!-- 집계관리 버튼 시작 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_total"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/menu05" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:text="집계관리" />
+            </LinearLayout>
+
+            <!-- 집계관리 버튼 끝 -->
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5" />
+
+            <!-- 주변기기 버튼 시작 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_local"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/menu06" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:text="주변기기" />
+            </LinearLayout>
+
+            <!-- 주변기기 버튼 끝 -->
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5" />
+        </LinearLayout>
+        <!-- 두번째 메뉴 라인 끝 -->
+    </LinearLayout>
+    <!-- 메뉴영역 끝 -->
+
+
+    <!-- 공지사항 시작 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/LightGrey"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="공지사항"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_more"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:text="more"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lv_notice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <!-- 공지사항 끝 -->
+
+
+    <!-- footer 시작 -->
+
+    <!--<include-->
+        <!--android:id="@+id/footer"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--layout="@layout/footer_layout" /> -->
+    <!-- footer 끝 -->
+
+</LinearLayout>

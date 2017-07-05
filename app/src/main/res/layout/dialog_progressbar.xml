@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/toast_popup_frame"
+        android:paddingBottom="22.6dip"
+        android:paddingLeft="22.6dip"
+        android:paddingRight="22.6dip"
+        android:paddingTop="22.6dip" >
+
+        <!-- android:background="@drawable/toast_popup_frame" -->
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/tv_progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.7dip"
+            android:text="잠시만 기다려 주세요..."
+            android:textColor="#ffffff"
+            android:textSize="14.6sp" />
+    </LinearLayout>
+
+</RelativeLayout>

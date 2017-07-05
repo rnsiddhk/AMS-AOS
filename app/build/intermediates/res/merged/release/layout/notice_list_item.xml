@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal" >
+
+    <!-- 공지사항 구분 이미지 시작 -->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/mImageView1"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/icon_notice_n" />
+
+        <TextView
+            android:id="@+id/mImageView2"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/icon_notice_0" />
+    </LinearLayout>
+    <!-- 공지사항 구분 이미지 끝 -->
+
+
+    <!-- 내용 시작 -->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="3"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/mData01"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:text="공지사항1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/mData02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="본사"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/mData03"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="2016/08/18"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/mData04"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="조회:10"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/mData05"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:visibility="gone"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 내용 끝 -->
+
+</LinearLayout>

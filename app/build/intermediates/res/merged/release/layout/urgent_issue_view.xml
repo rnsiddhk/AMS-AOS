@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- top view 시작 -->
+
+    <include
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/top_view" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- 검색 조건 라인 시작 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/Gray"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/sp_con1"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dropdown" />
+
+            <Spinner
+                android:id="@+id/sp_con2"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dropdown" />
+
+            <Spinner
+                android:id="@+id/sp_con3"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dropdown" />
+
+            <Button
+                android:id="@+id/btn_click"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/login_btn_select"
+                android:text="조회"
+                android:textColor="@color/White" />
+        </LinearLayout>
+        <!-- 검색 조건 라인 끝 -->
+
+
+        <!-- 조회결과 라인 시작 -->
+
+        <TextView
+            android:id="@+id/txt_count"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/WhiteSmoke"
+            android:gravity="center_vertical|center_horizontal|left"
+            android:paddingLeft="5dp" />
+        <!-- 조회결과 라인 끝 -->
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swiperefreshlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/lv_urgent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </LinearLayout>
+
+
+    <!-- top view 끝 -->
+
+    <!-- footer 시작 -->
+
+    <!--<include-->
+        <!--android:id="@+id/footer"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--layout="@layout/footer_layout" />-->
+    <!-- footer 끝 -->
+
+</LinearLayout>
