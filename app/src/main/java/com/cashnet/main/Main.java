@@ -3,7 +3,6 @@ package com.cashnet.main;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
-import android.app.backup.FullBackupDataOutput;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -121,12 +120,10 @@ public class Main extends Activity implements OnClickListener {
 		}
 
 		// 전송 사진을 저장하기 위한 폴더 생성, 앱 설치시 최초 한번 생성
-		String dirPath = Environment.getExternalStorageDirectory().getAbsoluteFile() + "bgf";
-		File file = new File(dirPath);
+		String dirPath = Environment.getExternalStorageDirectory().getAbsolutePath();
+		File file = new File(dirPath, "bgf");
 		if(!file.exists())
 			file.mkdirs();
-
-
 	}
 
 	@Override
