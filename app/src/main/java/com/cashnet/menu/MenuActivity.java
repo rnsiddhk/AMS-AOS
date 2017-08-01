@@ -2,13 +2,10 @@ package com.cashnet.menu;
 
 import android.app.ProgressDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
-import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.provider.Settings;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -28,7 +25,6 @@ import com.cashnet.common.SGPreference;
 import com.cashnet.main.BaseActivtiy;
 import com.google.android.map.GoogleMapViewer;
 import com.jauker.widget.BadgeView;
-import com.nhn.android.map.NMapViewer;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -222,8 +218,8 @@ public class MenuActivity extends BaseActivtiy implements OnClickListener {
                 Toast.makeText(this, getString(R.string.str_service_msg), Toast.LENGTH_SHORT).show();
 //                SearchTask searchTask = new SearchTask();
 //                searchTask.execute();
-                intent = new Intent(this, NMapViewer.class);
-                startActivity(intent);
+//                intent = new Intent(this, NMapViewer.class);
+//                startActivity(intent);
                 break;
 
             // 상태관리
